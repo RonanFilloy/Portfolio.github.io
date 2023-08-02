@@ -20,27 +20,27 @@ function Navbar() {
         <div className='navbar' >
             <ul className={menu ? 'nav-menu active' : 'nav-menu'}>
                 <li>
-                    <NavLink onClick={closeNavbar} to='/'>
+                    <NavLink onClick={closeNavbar} to='#/'>
                         Home
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink onClick={closeNavbar} to='/about'>
+                    <NavLink onClick={closeNavbar} to='#/about'>
                         About Me
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink onClick={closeNavbar} to='/skills'>
+                    <NavLink onClick={closeNavbar} to='#/skills'>
                         Skills
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink onClick={closeNavbar} to='/projects'>
+                    <NavLink onClick={closeNavbar} to='#/projects'>
                         Projects
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink onClick={closeNavbar} to='/contact'>
+                    <NavLink onClick={closeNavbar} to='#/contact'>
                         Contact
                     </NavLink>
                 </li>
