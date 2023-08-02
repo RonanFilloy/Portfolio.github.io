@@ -21,23 +21,23 @@ function App() {
         <Routes location={location}>
           <Route 
             index
-            path='/'
+            path='/Portfolio.github.io/'
             element={<Home/>}
           />
           <Route 
-            path='/about'
+            path='/Portfolio.github.io/about'
             element={<About />}
           />
           <Route 
-            path='/skills'
+            path='/Portfolio.github.io/skills'
             element={<Skills />}
           />
           <Route 
-            path='/projects'
+            path='/Portfolio.github.io/projects'
             element={<Projects />}
           />
           <Route 
-            path='/contact'
+            path='/Portfolio.github.io/contact'
             element={
                 <Contact />
 
@@ -45,10 +45,9 @@ function App() {
           />
           <Route 
             index
-            path='*'
+            path='/Portfolio.github.io/*'
             element={
                 <Home />
-
             }
           />
         </Routes>
