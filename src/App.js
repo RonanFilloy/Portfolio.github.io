@@ -21,34 +21,29 @@ function App() {
         <Routes location={location}>
           <Route 
             index
-            path='/Portfolio.github.io/'
+            path='/'
             element={<Home/>}
           />
           <Route 
-            path='/Portfolio.github.io/about'
+            path='/about'
             element={<About />}
           />
           <Route 
-            path='/Portfolio.github.io/skills'
+            path='/skills'
             element={<Skills />}
           />
           <Route 
-            path='/Portfolio.github.io/projects'
+            path='/projects'
             element={<Projects />}
           />
           <Route 
-            path='/Portfolio.github.io/contact'
-            element={
-                <Contact />
-
-              }
+            path='/contact'
+            element={<Contact />}
           />
           <Route 
             index
-            path='/Portfolio.github.io/*'
-            element={
-                <Home />
-            }
+            path='*'
+            element={<Home />}
           />
         </Routes>
     </ThemeProvider>
