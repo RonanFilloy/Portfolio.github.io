@@ -1,0 +1,48 @@
+.projects {
+    min-height: 100vh;
+    transition: 0.8s ease-in-out;
+}
+
+.projects h1 {
+    padding-top: 5vh;
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.light-projects {
+    background: rgb(160, 160, 160);
+    color: black;
+}
+
+.dark-projects {
+    background: black;
+    color: #fafafa;
+}
+
+.dark-projects hr {
+    color: rgb(0, 100, 255);
+}
+
+.projects hr {
+    opacity: 1;
+    border: 2px solid;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.apps-appear {
+    opacity: 0;
+}
+
+.apps-appear-active {
+    opacity: 1;
+    transition: opacity 2000ms;
+}

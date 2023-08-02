@@ -1,0 +1,88 @@
+.about {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    transition: 0.8s ease-in-out;
+}
+
+.light-about {
+    background: #fafafa;
+}
+
+.dark-about  {
+    background: black;
+}
+
+.card {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 5vh;
+}
+
+.about-title h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.dark-about .about-title {
+    background: #fafafa;
+}
+
+.dark-about .about-title h1 {
+    color: black;
+}
+
+.light-about .about-title {
+    background: black;
+}
+
+.light-about .about-title h1 {
+    color: #fafafa;
+}
+
+.about-languages {
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.about-languages ul {
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding: 0;
+}
+
+.about-languages li {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.dark-about .about-languages ul,
+.dark-about .about-languages li {
+    color: rgb(0, 100, 255);
+}
+
+.light-about .about-languages ul,
+.light-about .about-languages li {
+    color: rgb(160, 160, 160);
+}
+
+.about-text {
+    width: 80%;
+    margin-left: 7vw;
+    margin-top: 25vh;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 400;
+}
+
+.dark-about .about-text {
+    color: #fafafa;
+}
+
+.light-about .about-text {
+    color: black;
+}
+

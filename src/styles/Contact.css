@@ -1,0 +1,83 @@
+.light-contact {
+    background: #fafafa;
+}
+
+.dark-contact {
+    background: black;
+    color: #fafafa;
+}
+
+.contact {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.8s ease-in-out;
+}
+
+.contact-info {
+    width: 80%;
+    text-align: center;
+}
+
+.contact-info h1 {
+    font-size: 5rem;
+    margin-top: 3rem;
+    font-weight: 800;
+}
+
+.contact-content {
+    margin: 10vh 0;
+    flex-wrap: wrap;
+}
+
+.contact-info hr {
+    border: 2px solid;
+    opacity: 1;
+}
+
+.contact-info h2 {
+    font-size: 3rem;
+    margin: 2rem 0;
+    @media (max-width: 576px) {
+        font-size: 2rem;
+    }
+}
+
+.contact-info a {
+    text-decoration: none;
+}
+
+.light-contact .contact-info a {
+    color: black;
+}
+
+.light-contact .contact-info a:hover {
+    border-bottom: 1px solid black;
+}
+
+.dark-contact .contact-info a {
+    color: #fafafa;
+}
+
+.dark-contact .contact-info a:hover {
+    border-bottom: 1px solid #fafafa;
+}
+
+.dark-contact .contact-info hr {
+    color: rgb(0, 100, 255);
+}
+
+.light-contact .contact-info hr {
+    border-color: rgb(160, 160, 160);
+}
+
+.info-appear {
+    opacity: 0;
+}
+
+.info-appear-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in-out;
+}

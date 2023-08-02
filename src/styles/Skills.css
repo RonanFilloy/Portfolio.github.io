@@ -1,0 +1,46 @@
+.light-skills {
+    background: rgb(160, 160, 160);  
+}
+
+.dark-skills {
+    background: black;
+}
+
+.skills {  
+    min-height: 100vh;
+    padding-top: 3vh;
+    transition: 0.8s ease-in-out;
+}
+
+.skills h1 {
+    padding-top: 2vh;
+    margin-left: 5vw;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.light-skills h1 {
+    color: black;
+}
+
+.dark-skills h1 {
+    color: #fafafa;
+}
+
+.skills-front,
+.skills-back,
+.skills-misc {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.skill-group-appear {
+    transform: translateX(-100vw);
+}
+
+.skill-group-appear-active {
+    transform: translateX(0);
+    transition: 2000ms;
+}
