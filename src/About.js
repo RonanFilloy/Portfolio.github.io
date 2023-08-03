@@ -23,20 +23,20 @@ function About() {
                         <div className='about-text'>
                             <p>
                                 My name is Ronan Filloy, I'm a self-taught frontend developer from Argentina. I've
-                                lived in three different countries, worked for companies in four, and still I seek 
-                                new opportunities to grow professionally and as a person. As someone who has recieved 
+                                lived in three different countries, worked for companies in four, yet still I seek
+                                new opportunities to grow professionally and as a person. As someone who has received
                                 education from more than one country (As a child I went to kinder in Michigan), I was
                                 forced to learn to communicate not only in different languages, but also in manners that
-                                are clear and concise for people of different cultures from a very early age. As an adult 
-                                I managed to translate this into my worklife, working besides people from countrys ranging from Argentina, United States, 
-                                all the way to Ukraine. <br/>
+                                are clear and concise for people of different cultures from a very early age. As an adult
+                                I managed to translate this into my work life, working besides people from countries ranging from Argentina, United States,
+                                all the way to Ukraine.<br/>
                                 <br/>
-                                Nowadays, I'm looking for opportunities to grow as a frontend developer. I love the freedom web 
+                                Nowadays, I'm looking for opportunities to grow as a frontend developer. I love the freedom web
                                 development gives me to express my creativity and ability to solve problems, as well as bring new
-                                ideas to the table. My background working as a recruiter and my focus in growing as a developer have 
-                                taught me what both sides of the coin want and need to carry a team to success. <br/>
+                                ideas to the table. My background working as a recruiter and my focus on growing as a developer have 
+                                taught me what both sides of the coin want and need to carry a team to success.  <br/>
                                 <br/>
-                                If this fits what you are looking for in a freontend developer, please feel free to contact me!
+                                If this fits what you are looking for in a frontend developer, please feel free to contact me!
                             </p>
                         </div>
                     </div>
