@@ -127,30 +127,35 @@
 
 .fading-adj .prev,
 .fading-adj .next {
-    animation: fade-prev-next 2s infinite alternate;
+    opacity: 0.3;
+    animation: fade-prev-next 3s infinite;
 }
 
 .fading-adj .curr {
-    animation: fade-curr 2s infinite alternate;
+    animation: fade-curr 3s infinite;
 }
 
 @keyframes fade-curr {
-    0% {
+
+    0%,
+    100% {
         opacity: 0;
     }
 
-    100% {
+    50% {
         opacity: 1;
     }
 }
 
 @keyframes fade-prev-next {
-    0% {
-        opacity: 1;
-    }
 
+    0%,
     100% {
         opacity: 0;
+    }
+
+    50% {
+        opacity: 0.3;
     }
 }
 
@@ -162,7 +167,7 @@
         justify-content: center;
         margin: auto;
     }
- 
+
     .fading-adj {
         margin-bottom: 10vh;
     }
