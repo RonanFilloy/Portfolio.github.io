@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio.github.io/static/css/main.a2f961cc.css",
-    "main.js": "/Portfolio.github.io/static/js/main.eabd9562.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Portfolio.github.io/static/js/787.1ed0c42c.chunk.js",
+    "main.js": "/Portfolio.github.io/static/js/main.df8beeb1.js",
+    "static/js/787.f6e65957.chunk.js": "/Portfolio.github.io/static/js/787.f6e65957.chunk.js",
     "static/media/Color-picker.png": "/Portfolio.github.io/static/media/Color-picker.345b5e0f293b0642fb51.png",
+    "static/media/Yelp-Camp.png": "/Portfolio.github.io/static/media/Yelp-Camp.686603e7b7f6bf24835a.png",
     "static/media/FotoPresentacion.jpeg": "/Portfolio.github.io/static/media/FotoPresentacion.0101775c657222468162.jpeg",
     "static/media/dad-jokes.png": "/Portfolio.github.io/static/media/dad-jokes.55f16879110810b41835.png",
     "static/media/bootstrap.png": "/Portfolio.github.io/static/media/bootstrap.74639664fdc9d7968597.png",
@@ -19,11 +20,11 @@
     "static/media/express.png": "/Portfolio.github.io/static/media/express.034db57c567c0257d534.png",
     "index.html": "/Portfolio.github.io/index.html",
     "main.a2f961cc.css.map": "/Portfolio.github.io/static/css/main.a2f961cc.css.map",
-    "main.eabd9562.js.map": "/Portfolio.github.io/static/js/main.eabd9562.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Portfolio.github.io/static/js/787.1ed0c42c.chunk.js.map"
+    "main.df8beeb1.js.map": "/Portfolio.github.io/static/js/main.df8beeb1.js.map",
+    "787.f6e65957.chunk.js.map": "/Portfolio.github.io/static/js/787.f6e65957.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2f961cc.css",
-    "static/js/main.eabd9562.js"
+    "static/js/main.df8beeb1.js"
   ]
 }
