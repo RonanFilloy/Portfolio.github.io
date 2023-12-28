@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio.github.io/static/css/main.a2f961cc.css",
-    "main.js": "/Portfolio.github.io/static/js/main.cd34964d.js",
+    "main.js": "/Portfolio.github.io/static/js/main.9a0e086b.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio.github.io/static/js/787.1ed0c42c.chunk.js",
     "static/media/Color-picker.png": "/Portfolio.github.io/static/media/Color-picker.345b5e0f293b0642fb51.png",
     "static/media/Yelp-Camp.png": "/Portfolio.github.io/static/media/Yelp-Camp.686603e7b7f6bf24835a.png",
@@ -10,6 +10,7 @@
     "static/media/mongoose.png": "/Portfolio.github.io/static/media/mongoose.998152e4bc5fdd366c2c.png",
     "static/media/react.png": "/Portfolio.github.io/static/media/react.6ab7e2e9a04e78b4e9c6.png",
     "static/media/cloudinary.png": "/Portfolio.github.io/static/media/cloudinary.8f54e4a273134611aea8.png",
+    "static/media/python-logo.png": "/Portfolio.github.io/static/media/python-logo.141f12b52bc6f27a2926.png",
     "static/media/Login-page.png": "/Portfolio.github.io/static/media/Login-page.84257a4b1b8fa599a937.png",
     "static/media/keep-clone.png": "/Portfolio.github.io/static/media/keep-clone.43232eea7b379bfd8cf8.png",
     "static/media/To-do-list.png": "/Portfolio.github.io/static/media/To-do-list.a83422bf278a3b9e3272.png",
@@ -20,11 +21,11 @@
     "static/media/express.png": "/Portfolio.github.io/static/media/express.034db57c567c0257d534.png",
     "index.html": "/Portfolio.github.io/index.html",
     "main.a2f961cc.css.map": "/Portfolio.github.io/static/css/main.a2f961cc.css.map",
-    "main.cd34964d.js.map": "/Portfolio.github.io/static/js/main.cd34964d.js.map",
+    "main.9a0e086b.js.map": "/Portfolio.github.io/static/js/main.9a0e086b.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio.github.io/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2f961cc.css",
-    "static/js/main.cd34964d.js"
+    "static/js/main.9a0e086b.js"
   ]
 }
